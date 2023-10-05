@@ -34,7 +34,9 @@ class usersscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        backgroundColor: Colors.green,
+        title:
+        Text(
           'users',
         ),
       ),
