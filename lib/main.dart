@@ -7,6 +7,7 @@ import 'login.dart';
 import 'messenger.dart';
 import 'usersscreen.dart';
 import 'whatsapp.dart';
+import 'counter.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: whatsapp(),
+      home: counter(),
     );
   }
 }
