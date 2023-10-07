@@ -1,3 +1,4 @@
+import 'package:firstfllutterapp/BMI_Calculator.dart';
 import 'package:firstfllutterapp/HomeScreen.dart';
 import 'package:firstfllutterapp/signup.dart';
 import 'package:firstfllutterapp/usersscreen.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: counter(),
+      home: BMI_Calculator(),
     );
   }
 }
